@@ -51,7 +51,7 @@ function cadastrar_contas() {
   listagem.innerHTML = tipoconta + '\n'
 
   resultado.innerHTML =
-    numContas + ' contas' + ' total R$: ' + valorTotal + ''
+    numContas + ' contas' + ' total R$: ' + valorTotal.toFixed(2) + ''
 }
 
 botaoConsumo.addEventListener('click',calcularConsumo)
