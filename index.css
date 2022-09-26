@@ -28,8 +28,7 @@ body {
 #imagem {
   border: solid black 3px;
 }
-h3 {
-}
+
 #botaoConsumo {
   background: linear-gradient(-45deg, #532584, #60414c, #3e8824, #c0305b);
   background-size: 400% 400%;
